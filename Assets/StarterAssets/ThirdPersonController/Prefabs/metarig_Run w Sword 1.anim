@@ -43678,8 +43678,22 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.2857143
+    functionName: ShowParticle
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.62857145
     functionName: OnFootstep
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6857143
+    functionName: ShowParticleRight
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
