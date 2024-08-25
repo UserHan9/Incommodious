@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_StylizedWater
-  m_Shader: {fileID: -6465566751694194690, guid: be384224b45223545a5a568bb3972dba, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: be384224b45223545a5a568bb3972dba,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,17 +39,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FoamAmount: 20
-    - _FoamCutoff: 12
+    - _FoamAmount: 13.3
+    - _FoamCutoff: 3.8
     - _FoamScale: 2.7
     - _FoamSpeed: 0.08
     - _Foam_NormalScale: 1.59
-    - _InteractionRippleCutoff: 0.3
+    - _InteractionRippleCutoff: 0.36
     - _MovementScale: 0.791
     - _MovementSpeed: 0.117
     - _NormalScale: 2.51
     - _NormalSpeed: 0.1
-    - _NormalStrength: 0.131
+    - _NormalStrength: 0.19
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RECEIVE_SHADOWS_OFF: 0
@@ -56,10 +57,10 @@ Material:
     - _RefractionSpeed: 1.9
     - _RefractionStrength: 0.025
     - _RippleCutoff: 0.5
-    - _Shineness: 1
-    - _SurfaceScale: 2.22
+    - _Shineness: 0
+    - _SurfaceScale: 0.3
     - _WaterDepth: 8
-    - _WaterSpeed: 0.1
+    - _WaterSpeed: 0.21
     - _WaveAmplitude: 0.3
     - _WaveFrequency: 1
     - _WaveSpeed: 1
