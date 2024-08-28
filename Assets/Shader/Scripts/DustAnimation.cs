@@ -5,7 +5,7 @@ using UnityEngine;
 public class DustAnimation : MonoBehaviour
 {
     public GameObject slashparticle;
-
+    public GameObject dashparticles;
     public GameObject slashparticle2;
     public GameObject walkparticle;
     public Transform lefttransform;
@@ -28,6 +28,7 @@ public class DustAnimation : MonoBehaviour
     public void DashParticle()
     {
 
+        dashparticles.gameObject.SetActive(true);
     }
 
     public void SlashParticle()
