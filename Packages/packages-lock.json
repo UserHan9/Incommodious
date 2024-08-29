@@ -245,15 +245,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "www.nulltale.outlinefx": {
-      "version": "https://github.com/NullTale/OutlineFx.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.render-pipelines.universal": "12.1.11"
-      },
-      "hash": "438a33ec92b50e2aebda3117e420382142df61fb"
-    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
