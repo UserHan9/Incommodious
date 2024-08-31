@@ -566,6 +566,7 @@ GameObject:
   - component: {fileID: 69113737}
   - component: {fileID: 69113736}
   - component: {fileID: 69113739}
+  - component: {fileID: 69113740}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -691,6 +692,18 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &69113740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69113735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888b536df4460d4709d00a6169facde0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &80794441 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd816f8c60ae884c5aae4ce3c8bf9b2b,
@@ -3162,7 +3175,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 455961181}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 69113740}
+        m_TargetAssemblyTypeName: MainMenuu, Assembly-CSharp
+        m_MethodName: mainmenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &455961181
 MonoBehaviour:
   m_ObjectHideFlags: 0

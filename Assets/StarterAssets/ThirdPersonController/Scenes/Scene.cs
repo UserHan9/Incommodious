@@ -17,4 +17,11 @@ public class Scene : MonoBehaviour
     {
         
     }
+
+    public void Nextscene()
+    {
+
+        SceneManager.LoadScene("CutScene");
+
+    }
 }

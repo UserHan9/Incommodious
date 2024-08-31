@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/StarterAssets/ThirdPersonController/Scenes/MainMenu.unity
     guid: 312d4fd864f940989a437c9b110b1498
-  - enabled: 0
+  - enabled: 1
     path: Assets/StarterAssets/ThirdPersonController/Scenes/CutScene.unity
     guid: 08c4a3dbc7c0d3b73839aaff85ed93a2
   - enabled: 1
