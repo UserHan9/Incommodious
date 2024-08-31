@@ -11,5 +11,11 @@ public class MainMenuu : MonoBehaviour
     SceneManager.LoadScene("CutScene");
     }
 
+        public void exit(){
+
+            Application.Quit();
+    
+    }
+
    
 }
